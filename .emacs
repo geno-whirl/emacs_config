@@ -72,9 +72,9 @@
 (menu-bar-mode -1)          ;; Disable the menu bar
 
 
-(set-face-attribute 'default nil :font "Fira Code Retina" :height 140)
-(set-face-attribute 'fixed-pitch nil :font "Fira Code Retina" :height 140)
-(set-face-attribute 'variable-pitch nil :font "SF UI Display" :height 200 :weight 'thin :slant 'oblique)
+;;(set-face-attribute 'default nil :font "Fira Code Retina" :height 140)
+;;(set-face-attribute 'fixed-pitch nil :font "Fira Code Retina" :height 140)
+;;(set-face-attribute 'variable-pitch nil :font "SF UI Display" :height 200 :weight 'thin :slant 'oblique)
 
 (use-package doom-modeline
   :init (doom-modeline-mode 1)
